@@ -1,0 +1,194 @@
+
+.App {
+    display: flex;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    margin-top: 30px;
+    min-width: 300px;
+    height: 900px;
+    padding: 20px;
+    background-color: #dff7f7; /* Add a background color for the sidebar */
+    box-shadow: 0 0 20px rgba(244, 243, 243, 0.1);
+    border: 0.5px solid #ffffff;
+    border-radius: 5px;
+    right: 0;
+    position: fixed;
+    overflow-y: auto; /* Add this line to enable vertical scrolling in the sidebar */
+    
+    
+  }
+  
+  .button-container1 {
+    display: flex;
+    flex-direction: row; 
+      /* Adjust this property to control spacing */
+    align-items: center;
+    
+  }
+  
+  button {
+    height: 35px;
+    width: 79.100%;
+    margin-bottom:0.5px; /* Add margin to space buttons vertically */
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color:#222222;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .small-button {
+    margin-right: 10px; /* Add spacing between buttons */
+    padding: 5px 10px;
+    float: left;
+    display: block;
+    text-decoration: none ;    /* Adjust padding to make the buttons smaller */
+  }
+  
+  
+  .content {
+  
+    max-width: 700px;
+    margin-right: 400px;
+    padding: 20px;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    background-color:#dff7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height: 600px;
+    height: 500px;
+    width: 600px;
+
+  }
+
+  .button-grid1 {
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(5, 1fr); /* Create 4 columns */
+    justify-items: center;
+    gap: 1px; /* Adjust the gap between buttons as needed */
+    padding: 3px; /* Center the buttons within each grid cell */
+    width:"100%";
+    overflow-y: auto; /* Add this line to enable vertical scrolling */
+    max-height: calc(100vh - 170px); /* Set the maximum height for the grid to allow for scrolling */
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  .dropDown {
+   background-color: #f0f0f0;
+
+  }
+  
+  ul.ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul.ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul.ul label {
+    display: flex;
+    align-items: center;
+  }
+  
+  ul.ul input[type='radio'] {
+    margin-right: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+   
+  }
+
+  .question-button {
+    /* Your default button styles here */
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .attempted-button {
+    background-color: green;
+    color: white;
+  }
+  
+  .not-attempted-button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  
+  .current-question-button {
+    background-color: rgb(88, 88, 248);
+    color: white;
+  }
+  
+  /* ... Your existing styles */
+
+.visited-but-unattempted-button {
+  background-color: red;
+  color: white;
+}
+
+
+
+.instruction-card {
+  background-color: #dff7f7;
+  padding: 20px;
+  border: 0.5px solid #ece9e9;
+  border-radius: 5px;
+  box-shadow: 7px 7px 2px rgba(134, 134, 134, 0.3);
+  margin-right: 20px;
+  max-height: 500px;
+  position: fixed;
+  left: 0;
+  margin-top: 100px;
+}
+
+.instruction-card h4 {
+  font-size: 18px;
+  color: #333;
+}
+
+.instruction-card p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #676767;
+}
+
+.color-box {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+
+  
+  
+  

@@ -1,0 +1,35 @@
+.student-info-container {
+    margin: 20px;
+  }
+  
+  .student-info-container h2 {
+    text-align: center;
+  }
+  
+  .student-info-container table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 230px;
+  }
+  
+  .student-info-container th, .student-info-container td {
+    border: 1px solid #ddd;
+    padding: 4px;
+    text-align: center;
+  }
+  
+  .student-info-container th {
+    background-color: #c8f2eb;
+    color: black;
+    padding: 4px;
+  }
+  
+  .student-info-container tbody tr:nth-child(even) {
+    background-color: #cde7ee;
+  }
+  
+  .student-info-container tbody tr:hover {
+    background-color: #ffffff;
+  }
+  

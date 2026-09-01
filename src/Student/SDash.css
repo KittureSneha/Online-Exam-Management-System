@@ -1,0 +1,46 @@
+/* SDash.css */
+
+/* 
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  */
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  ol {
+    padding-left: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  button {
+    display: block;
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

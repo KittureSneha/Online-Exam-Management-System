@@ -1,0 +1,66 @@
+
+{
+   "q" : [
+  {
+    "id":1,
+    "question": "What is the largest planet in our solar system?",
+    "options": ["Mars", "Earth", "Jupiter", "Saturn"],
+    "answer": "Jupiter"
+  },
+  {
+    "id":2,
+    "question": "What is the capital of Canada?",
+    "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+    "answer": "Ottawa"
+  },
+  {
+    "id":3,
+    "question": "Which gas is most abundant in the Earths atmosphere?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Helium"],
+    "answer": "Nitrogen"
+  },
+  {
+    "id":4,
+    "question": "Who wrote the novel '1984'?",
+    "options": ["George Orwell", "J.K. Rowling", "Stephen King", "Agatha Christie"],
+    "answer": "George Orwell"
+  },
+  {
+    "id":5,
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "South Korea", "Japan", "Vietnam"],
+    "answer": "Japan"
+  },
+  {
+    "id":6,
+    "question": "What is the chemical symbol for gold?",
+    "options": ["Au", "Ag", "Fe", "Hg"],
+    "answer": "Au"
+  },
+  {
+    "id":7,
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "answer": "Mars"
+  },
+  {
+    "id":8,
+    "question": "What is the largest mammal on Earth?",
+    "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+    "answer": "Blue Whale"
+  },
+  {
+    "id":9,
+    "question":"What is the powerhouse of the cell?",
+    "options": ["Nucleus", "Mitochondria", "Chloroplast", "Ribosome"],
+    "answer": "Mitochondria"
+  },
+  {
+    "id":10,
+    "question": "Which gas do plants absorb from the atmosphere?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Methane"],
+    "answer": "Carbon Dioxide"
+  }
+]
+}
+
