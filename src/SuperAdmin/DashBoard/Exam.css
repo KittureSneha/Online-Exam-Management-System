@@ -1,0 +1,114 @@
+
+
+.App {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar2 {
+  margin-top: 30px;
+  min-width: 300px;
+  height: 900px;
+  background-color: #def8f8;
+  box-shadow: 0 0 20px rgba(244, 243, 243, 0.1);
+  border: 0.5px solid #000000;
+  border-radius: 5px;
+  right: 0;
+  position: fixed;
+  overflow-y: auto; /* Add this line to enable vertical scrolling in the sidebar */
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+button {
+  height: 35px;
+  width: 80%;
+  margin-bottom: 0.5px;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color:#000000  ;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.small-button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  float: left;
+  display: block;
+  text-decoration: none;
+}
+
+.content {
+  max-width: 700px;
+  margin-left: 400px;
+  padding: 20px;
+  border: 0.5px solid #ccc;
+  border-radius: 5px;
+  background-color: #def8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-height: 600px;
+  height: 500px;
+  width: 600px;
+}
+
+
+.button-grid2 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  gap: 1px;
+  padding: 3px;
+  width:"100%";
+  overflow-y: auto; /* Add this line to enable vertical scrolling */
+  max-height: calc(100vh - 150px); /* Set the maximum height for the grid to allow for scrolling */
+}
+
+ul {
+  list-style-type: none;
+}
+
+.dropDown {
+  background-color: #f0f0f0;
+}
+
+ul.ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.ul li {
+  margin-bottom: 10px;
+}
+
+ul.ul label {
+  display: flex;
+  align-items: center;
+}
+
+ul.ul input[type='radio'] {
+  margin-right: 10px;
+}
+
+.button-container {
+  display: flex;
+}
+.attempted-button {
+  background-color: green;
+}
+
+.not-attempted-button {
+  background-color: red;
+}

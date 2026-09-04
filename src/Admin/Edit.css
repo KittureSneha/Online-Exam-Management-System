@@ -1,0 +1,44 @@
+  h2{
+    margin-left: 150px;
+  }
+  .edit-student-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .edit-student-form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;                             
+    }
+    
+    .edit-student-label {
+      font-weight: bold;
+    }
+    
+    .edit-student-input {
+      background-color: rgba(179, 178, 178, 0.2);
+      width: 50%;
+      padding: 8px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 5px 5px 2px rgba(46, 46, 46, 0.3);
+    }
+    
+    .edit-student-button {
+      background-color: #676767;
+      color: #fff;
+      width: 40%;
+      height: 40px;
+      margin-left:165px;
+      padding: 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+    }
+  
+  
+  
+  

@@ -1,0 +1,59 @@
+
+
+.Demo {
+    
+    margin-top:80px;
+    background-color: #d6c878;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+  }
+
+  .Heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-left: 140px;
+    margin-bottom: 60px;
+    margin-top: 50px  ;
+  }
+  .Cont {
+    width: "32rem";
+    background-color:"#ede29d";
+  }
+
+  .EachDiv {
+    margin-bottom:20px;
+    margin-left: 75px;
+    align-self: center;
+  }
+
+  .Sub {
+    margin-left: 165px;
+    margin-top: 60px;
+  }
+
+  .Marge {
+    margin-top: 30px;
+    
+  }
+  .Marge2 {
+    margin-right: 30px;
+  }
+
+  
+  .password-container
+  {
+    position: relative;
+  }
+
+  .password-input-container {
+    position: relative;
+  }
+  
+.password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px; /* Adjust the right distance as needed */
+    cursor: pointer;
+    
+}

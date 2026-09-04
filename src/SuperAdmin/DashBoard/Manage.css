@@ -1,0 +1,52 @@
+/* Manage.css */
+
+/* Style for the table and container */
+.table-container {
+    margin-left: 250px; /* Adjust the margin as needed */
+    width: 60%; /* Adjust the width based on your layout */
+    float: center; /* Move the container to the right */
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%; /* Use 100% width for the table */
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style for the generated credentials */
+  h2 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* SuperSidebar.css */
+  
+  /* Add your styles for the SuperSidebar component here */
+  
+  

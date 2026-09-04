@@ -1,0 +1,66 @@
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  table {
+    
+    border-collapse: collapse;
+    width: 100%;
+    
+    margin-top: 60px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    
+  }
+  
+  thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Update the container styling in Admin.css or AManage.css */
+.table-container {
+  margin-left: 250px; /* Adjust the margin as needed */
+  width: 80%; /* You can adjust the width based on your layout */
+  float: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%; /* Use 100% width for the table */
+}
+
+/* generate credentails CSS */
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
+  

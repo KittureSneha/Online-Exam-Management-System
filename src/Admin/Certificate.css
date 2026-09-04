@@ -1,0 +1,64 @@
+/* .certificate-container {
+    text-align: center;
+    margin-top: 200px;
+    background-image: url('/certificate.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+} */
+  
+
+     .certificate-container {
+      text-align: center;
+      margin-left: 100px;
+      width: 70%;
+      height: 800px;
+      }
+    
+      .certificate-image {
+        position: relative;
+        top: 60px;
+        left: 25%;
+        height: 650px;
+        background-image: url('./Picture/Certificate.png');
+        background-repeat: no-repeat; 
+        background-size: cover;  
+      
+      }
+      .certificate-content {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .certificate-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+      
+      .certificate-text {
+        position: relative;
+        top:250px;
+        left: 80;
+        
+        z-index: 1;
+      }
+      
+      .certificate-text h2 {
+        color: #333;
+      }
+      
+      .certificate-text p {
+        font-size: 20px;
+        margin: 10px 0;
+      }
+      
+      /* .issue {
+        position: absolute;
+        top: 150;
+      }
+     */
