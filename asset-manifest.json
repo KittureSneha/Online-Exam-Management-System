@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Online-Exam-Management-System/static/css/main.7584f459.css",
+    "main.js": "/Online-Exam-Management-System/static/js/main.734702ba.js",
+    "static/js/703.1108de77.chunk.js": "/Online-Exam-Management-System/static/js/703.1108de77.chunk.js",
+    "static/js/541.6119a16f.chunk.js": "/Online-Exam-Management-System/static/js/541.6119a16f.chunk.js",
+    "static/js/787.2fa164c3.chunk.js": "/Online-Exam-Management-System/static/js/787.2fa164c3.chunk.js",
+    "static/media/Certificate.png": "/Online-Exam-Management-System/static/media/Certificate.596c270c86d947d90468.png",
+    "static/media/bootstrap-icons.woff?": "/Online-Exam-Management-System/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/bootstrap-icons.woff2?": "/Online-Exam-Management-System/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
+    "index.html": "/Online-Exam-Management-System/index.html",
+    "main.7584f459.css.map": "/Online-Exam-Management-System/static/css/main.7584f459.css.map",
+    "main.734702ba.js.map": "/Online-Exam-Management-System/static/js/main.734702ba.js.map",
+    "703.1108de77.chunk.js.map": "/Online-Exam-Management-System/static/js/703.1108de77.chunk.js.map",
+    "541.6119a16f.chunk.js.map": "/Online-Exam-Management-System/static/js/541.6119a16f.chunk.js.map",
+    "787.2fa164c3.chunk.js.map": "/Online-Exam-Management-System/static/js/787.2fa164c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7584f459.css",
+    "static/js/main.734702ba.js"
+  ]
+}
